@@ -64,10 +64,9 @@ const App: React.FC = () => {
     <div className="app-container">
       {/* Header chính của trang web */}
       <header className="app-header">
-        <div className="header-badge">Quản lý đào tạo</div>
-        <h1 className="app-title">🎓 Quản Lý Điểm Sinh Viên</h1>
+        <h1 className="app-title"> Quản Lý Điểm Sinh Viên</h1>
         <p className="app-subtitle">
-          Hệ thống theo dõi kết quả học tập, xếp loại và thống kê điểm số sinh viên (React + TypeScript)
+          
         </p>
       </header>
 
@@ -88,7 +87,7 @@ const App: React.FC = () => {
             <div>
               <h2 className="list-title">Danh Sách Sinh Viên</h2>
               <p className="list-subtitle">
-                {`Hiển thị ${displayedStudents.length} trên tổng số ${students.length} sinh viên`}
+                
               </p>
             </div>
           </div>
@@ -110,7 +109,7 @@ const App: React.FC = () => {
 
       {/* Footer */}
       <footer className="app-footer">
-        <p>© 2026 Ứng dụng Quản lý Điểm Sinh viên • React 19 + TypeScript + ES6 Chuẩn mực</p>
+        
       </footer>
     </div>
   );
